@@ -978,6 +978,9 @@ footer{
 
 }
 @media screen and (max-width: 480px){
+     .head{
+        font-size: 30px;
+    }
     .illustration-box1{
         width: 75%;
     }
