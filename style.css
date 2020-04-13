@@ -29,7 +29,7 @@ body{
 .nav-links li a{
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 12px;
     transition: 0.3s ease;
 }
 .nav-links li a:hover{
@@ -107,7 +107,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 3px;
-    font-size: 13px;
+    font-size: 12px;
     transition: 0.3s ease;
 }
 .login:hover{
@@ -145,7 +145,7 @@ body{
 ::-webkit-input-placeholder{
     padding-left: 10px;
     color: rgb(109, 109, 109);
-    font-size: 13px;
+    font-size: 12px;
 }
 .search-bar a{
     text-decoration: none;
@@ -190,7 +190,7 @@ body{
     font-family: montserrat;
     width: 550px;
     line-height: 35px;
-    font-size: 13px;
+    font-size: 12px;
 }
 .fa-search{
     cursor: pointer;
@@ -204,7 +204,7 @@ body{
     background-color: #00c8e4;
     color: white;
     border-radius: 3px;
-    font-size: 13px;
+    font-size: 12px;
     cursor: pointer;
     transition: 0.2s ease;
 }
@@ -385,7 +385,7 @@ body{
     font-size: 30px;
 }
 #house-details{
-    font-size: 13px;
+    font-size: 12px;
     line-height: 30px;
     display: flex;
     justify-content: space-between;
@@ -401,7 +401,7 @@ body{
     color: white;
     background-color: #00c8e4;
     border-radius: 3px;
-    font-size: 13px;
+    font-size: 12px;
     cursor: pointer;    
     transition: 0.3s ease;
 }
@@ -480,7 +480,7 @@ body{
 }
 
 p1{
-    font-size: 13px;
+    font-size: 12px;
     color: rgb(90, 90, 90);
 }
 .testimonial-div{
@@ -564,7 +564,7 @@ p{
     box-shadow: 0px 2px 5px rgb(0,0,0,0.2);
 }
 .testimonial{
-    font-size: 13px;
+    font-size: 12px;
     margin: auto;
     margin-top: 7%;
     width: 90%;
@@ -687,7 +687,7 @@ footer{
 .f-links li a{
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 12px;
     transition: 0.2s ease;
 }
 .f-links li a:hover{
@@ -696,7 +696,7 @@ footer{
 .ending-scope{
     width: 85%;
     margin-left: 7.5%;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 33px;
     margin-top: 3%;
 }
@@ -978,8 +978,8 @@ footer{
 
 }
 @media screen and (max-width: 480px){
-     .head{
-        font-size: 30px;
+    .head{
+        font-size: 20px;
     }
     .illustration-box1{
         width: 75%;
@@ -999,6 +999,16 @@ footer{
     .house3{        
         width: 75%;
     }
+    .subscription-div{
+        height: 800px;
+    }
+    .subscription-details{
+        height: 50%;
+        margin-top: 10%;
+    }
+    .subscription-image{
+        height: 300px;
+    }
     .tb1{
         width: 75%;
         height: 300px;
@@ -1015,10 +1025,32 @@ footer{
         width: 75%;
         height: 300px;
     }
+    footer{
+        position: relative;
+        height: 1200px;
+    }
+    .logo-and-icons{
+        width: 75%;
+        justify-content: flex-start;
+        top: 1%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-links{
+        margin-top: 30%;
+    }
+    .icons{
+        width: 70%;
+    }
+
 }
-@media screen and (max-width: 447px){
+@media screen and (max-width: 448px){
+    .label-image{
+        height: 350px;
+    }
     .head{
-        font-size: 30px;
+        font-size: 20px;
     }
     .how-it-works-header{
         font-size: 30px;
@@ -1065,5 +1097,22 @@ footer{
     .tb4{
         width: 85%;
         height: 300px;
+    }
+    .subscription-details{
+        height: 52%;
+    }
+    .icons{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 400px){
+    .label-image{
+        height: 300px;
+    }
+    .wrapper-for-landing-photo{
+        height: 900px;
+    }
+    .subscription-image{
+        height: 250px;
     }
 }
